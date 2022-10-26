@@ -11,7 +11,27 @@ const Home = () => {
 
   return (
     <Layout>
-      <div>Home</div>
+      <>
+        <div className=''>
+          <p>Últimas operaciones</p>
+        <hr/>
+        </div>
+
+        <div className='bg-white w-full my-6 rounded-md border-1 shadow-lg flex-col items-center'>
+          <div>
+
+          <p className='text-sm text-left text-gray-500 '>CARNET PLUS</p>
+          </div>
+          
+          <div className='text-black text-base'>
+          <p>ALFREDO ANDRES RUSSO</p>
+          <p>$24,500</p>
+        </div>
+
+        </div>
+        
+
+      </>
     </Layout>
     
   )

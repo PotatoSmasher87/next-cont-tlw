@@ -9,7 +9,7 @@ const Layout = ({children}) => {
     const {tasks} = useTasks()
 
   return (
-    <div className='h-screen bg-gray-900 text-white'>
+    <div className='h-screen bg-gradient-to-b from-red-600 text-white'>
         <header className='flex items-center bg-gray-800 px-28 py-5'>
         <Link href="/">
         <a>
