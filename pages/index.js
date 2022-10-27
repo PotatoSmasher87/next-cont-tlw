@@ -12,20 +12,20 @@ const Home = () => {
   return (
     <Layout>
       <>
-        <div className=''>
-          <p>Últimas operaciones</p>
+        <div className='my-5'>
+          <p className='font-semibold'>Últimas operaciones</p>
         <hr/>
         </div>
 
-        <div className='bg-white w-full my-6 rounded-md border-1 shadow-lg flex-col items-center'>
+        <div className='bg-white w-full my-2 rounded-md border-1 drop-shadow-2xl flex-col items-center'>
           <div>
 
-          <p className='text-sm text-left text-gray-500 '>CARNET PLUS</p>
+          <p className='text-sm text-left px-3 pb-2 pt-5 text-gray-400 font-semibold'>CARNET PLUS</p>
           </div>
           
-          <div className='text-black text-base'>
-          <p>ALFREDO ANDRES RUSSO</p>
-          <p>$24,500</p>
+          <div className='text-black text-base px-3 w-full font-semibold flex justify-between items-center pb-6'>
+          <p className='text-left'>ALFREDO ANDRES RUSSO</p>
+          <p className='text-right'>$24,500</p>
         </div>
 
         </div>

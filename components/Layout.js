@@ -9,7 +9,8 @@ const Layout = ({children}) => {
     const {tasks} = useTasks()
 
   return (
-    <div className='h-screen bg-gradient-to-b from-red-600 text-white'>
+   // <div className='h-screen bg-gradient-to-b from-red-600 text-white'>
+    <div className='h-screen bg-gradient-to-b from-red-600 via-red-400 to-white text-white'>
         <header className='flex items-center bg-gray-800 px-28 py-5'>
         <Link href="/">
         <a>
@@ -30,7 +31,7 @@ const Layout = ({children}) => {
         </header>
         <hr/>
 
-        <main className='px-28'>
+        <main className='m-6'>
         {children}
         </main>
         
